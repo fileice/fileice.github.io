@@ -1,31 +1,33 @@
 # 邱立孝 (Li-shiau Chiou)
 
-* Birthday : 10/09/1982                                                          ![image]( https://fileice.github.io/my.png )
+* Birthday : 10/09/1982                                               
 * Education : 亞洲大學-資訊科學與應用學系                                          
 * Location : 高雄市 (Koahsiung City)
 * E-Mail : fileice@gmail.com
 
-
-
 ## 技能
+
+### iOS/Swift
+* 使用xcode & swift 語言開發iOS App。
+* 從無到有，開發、設計、規劃流程。
 
 ### HTML/CSS
 
 * 能夠使用 CSS 做出網頁排版與 RWD 響應式設計。
 * 會使用 Sass 規劃 Web layout 架構。
- 
 
 ### ASP/oracle
 
 * 對 MVC 架構有一定程度的認識，針對網頁的需求尋早合適的 libery 來修改。
-* Codeigniter 是目前最為熟悉的 MVC架構。
-* 能夠透過 oracle 與 ASP.NET 實現管理者直接在 web 上管理網站上的文字、圖片和資料。
+* 能夠透過 oracle 與 ASP.NET 實現管理者直接在 web 上管理，對資料庫做CRUD。
+* 匯入匯出 圖檔、excel、ods
 
-### Git/GitHub
+### Git/GitHub/GitLab
 
 * 能夠使用 GitHub Pages 建立一個靜態網頁。
 * 熟悉 source tree、Bitbucket
 * 對Git版本控制有基礎的了解，能夠抓取遠端資料庫到本機進行作業、創建分支、合併分支與推送到遠端資料庫。
+* 配合開發團隊使用 GitLab 共同開發專案。
 
 ### 其他
 
