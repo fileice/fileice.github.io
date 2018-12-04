@@ -1,4 +1,4 @@
-# 邱立孝 (Fileie Chiu)
+# 邱立孝 (Li-shiau Chiou)
 
 * Birthday : 10/09/1982
 * Education : 亞洲大學-資訊科學與應用學系
