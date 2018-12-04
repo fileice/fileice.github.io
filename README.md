@@ -27,17 +27,14 @@
 
 ### 其他
 
-
 * 擁有自行架站能力。
-
-## 學生時期作品
-
 
 ## 作品
 
+* iOS swift - https://github.com/fileice/JoinBoardGame 
 
 
-## 自我介紹
+## 經歷
 * 鼓岩國小-MIS資訊人員。網頁撰寫，AD架設。
 
 * ACER  屏東服務中心-擔任醫院駐點工程師，後轉門市，擔任店長，主要負責  NB、Cell  Phone、  Tablet、PC  硬體維修，並銷售  3C  產品。
@@ -46,7 +43,7 @@
 
 * 關貿股份有限公司-.NET  MVC  開發。
 
-* Side  project:應客戶需求接案-開發iOS進銷存系統-製作中
+* Side  project : 開發iOS進銷存系統-製作中
 
 
 
