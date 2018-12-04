@@ -1,11 +1,11 @@
 # 邱立孝 (Li-shiau Chiou)
 
 * Birthday : 10/09/1982
-* Education : 亞洲大學-資訊科學與應用學系
+* Education : 亞洲大學-資訊科學與應用學系                                     ![image]( https://fileice.github.io/my.png )
 * Location : 高雄市 (Koahsiung City)
 * E-Mail : fileice@gmail.com
 
-![image]( https://fileice.github.io/my.png )
+
 
 ## 技能
 
