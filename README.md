@@ -1,121 +1,53 @@
-# fileice.github.io
-我的履歷
-<h3>■單位基本資料 <span id="SysTitle"></span></h3>
+# 邱立孝 (Fileie Chiu)
 
-# Macaw
+* Birthday : 10/09/1982
+* Education : 亞洲大學-資訊科學與應用學系
+* Location : 高雄市 (Koahsiung City)
+* E-Mail : fileice@gmail.com
 
-[![CI Status](https://travis-ci.org/exyte/Macaw.svg?style=flat)](https://travis-ci.org/exyte/Macaw)
-[![Version](https://img.shields.io/cocoapods/v/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/cocoapods/l/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
-[![Platform](https://img.shields.io/cocoapods/p/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
+## 技能
 
-<img src="https://github.com/exyte/Macaw/blob/master/logo.png" width="400">
+### HTML/CSS
 
-## What is Macaw?
+* 能夠使用 CSS 做出網頁排版與 RWD 響應式設計。
+* 會使用 Sass 規劃 Web layout 架構。
+ 
 
-Macaw is a powerful and easy-to-use vector graphics library written in Swift.
+### ASP/oracle
 
-#### It's simple
+* 對 MVC 架構有一定程度的認識，針對網頁的需求尋早合適的 libery 來修改。
+* Codeigniter 是目前最為熟悉的 MVC架構。
+* 能夠透過 oracle 與 ASP.NET 實現管理者直接在 web 上管理網站上的文字、圖片和資料。
 
-Get started with Macaw in several lines of code:
+### Git/GitHub
 
-```swift
-class MyView: MacawView {
+* 能夠使用 GitHub Pages 建立一個靜態網頁。
+* 熟悉 source tree、Bitbucket
+* 對Git版本控制有基礎的了解，能夠抓取遠端資料庫到本機進行作業、創建分支、合併分支與推送到遠端資料庫。
 
-	required init?(coder aDecoder: NSCoder) {
-		let text = Text(text: "Hello, World!", place: .move(dx: 145, dy: 100))
-		super.init(node: text, coder: aDecoder)
-	}
-
-}
-```
-
-<img src="http://i.imgur.com/ffPc4mr.png" width="475">
-
-#### It has SVG support
-
-Include Scalable Vector Graphics right into your iOS application:
-
-<img src="http://i.imgur.com/NWkEzcu.png" width="300">
-
-#### It's powerful
-
-Affine transformations, user events, animation and various effects to build beautiful apps with Macaw:
-
-<img src="http://i.imgur.com/pjmxrDI.gif" width="600">
-
-## Motivation
-
-Modern designs contain tons of illustrations and complex animations. Mobile developers have to spend a lot of time on converting designs into native views that will be resizable for different screens. With Macaw you can reduce development time to a minimum and describe all graphics in high level [scene](https://en.wikipedia.org/wiki/Scene_graph) elements. Or even render SVG graphics right from your design tool with Macaw events and animation support.
-
-## Resources
-
-### Docs
-We're working hard to provide full documentation. Currently you can take a look at the following docs:
-* [Getting started guide](https://github.com/exyte/Macaw/wiki/Getting-started)
-* [Render SVG file](https://github.com/exyte/Macaw/wiki/Render-SVG-file)
-* [Content animation](https://github.com/exyte/Macaw/wiki/Content-animation)
-* [Morphing animation](https://github.com/exyte/Macaw/wiki/Morphing-animation)
-
-### Posts
-* [Replicating Apple Design Awarded Applications](https://medium.com/exyte/replicating-apple-design-awarded-applications-70e5df4c4b94#.ckt1hfnei)
-* [How friendly can drawing API be on iOS?](https://medium.com/exyte/how-friendly-can-drawing-api-be-on-ios-b3a818bf8105#.o9i35zcai)
-* [Macaw iOS Library: Morphing Animations](https://medium.com/exyte/macaw-ios-library-morphing-animations-and-touch-events-a4cb1c0be97f)
-
-## Examples
-
-[Macaw-Examples](https://github.com/exyte/macaw-examples) is a repository where you can find various usages of the `Macaw` library from simple charts to the complex periodic table.
-
-<img src="http://i.imgur.com/rQIh3qD.gif" height="280"> <img src="http://i.imgur.com/bIgHtzt.gif" height="280"> <img src="http://i.imgur.com/NiBT2rv.gif" height="280"> <img src="http://i.imgur.com/Un8TJKc.gif" height="280">
-
-<img src="http://i.imgur.com/o6tBKW6.gif" height="280"><img src="http://i.imgur.com/1JXF60f.gif" height="280">
+### 其他
 
 
-## Requirements
+* 擁有自行架站能力。
 
-* iOS 8.0+
-* Mac OS X 10.11+
-* Xcode 7.3+
+## 學生時期作品
 
-## Installation
 
-## [CocoaPods](http://cocoapods.org)
+## 作品
 
-To install it, simply add the following line to your Podfile:
-```ruby
-pod "Macaw", "0.9.1"
-```
 
-## [Carthage](http://github.com/Carthage/Carthage)
 
-```ogdl
-github "Exyte/Macaw" ~> 0.9.1
-```
+## 自我介紹
+* 鼓岩國小-MIS資訊人員。網頁撰寫，AD架設。
 
-## Building from sources
+* ACER  屏東服務中心-擔任醫院駐點工程師，後轉門市，擔任店長，主要負責  NB、Cell  Phone、  Tablet、PC  硬體維修，並銷售  3C  產品。
 
-To build Macaw from sources:
-* clone the repo `git@github.com:exyte/Macaw.git`
-* open terminal and run `cd <MacawRepo>/Example/`
-* run `pod install` to install all dependencies
-* run `open Example.xcworkspace/` to open project in the Xcode
+* 職涯轉職規劃與工作技能精進而參加資策會行動應用程式開發就業養成班，學習  APP  與  WEB  網際網  路系統程式設計之實務開發技術，專題製作網頁伺服器部分使用  AWS  EC2  架設  CentOS、TomCat、JSP、SSL  服務，WEB  API撰寫，Firebase  DB  規劃設計，APP  部分主要負責  iOS-SWIFT  設計開發與功能實作。
 
-## Who is using Macaw?
-Over one thousand users already utilize Macaw in their applications. We would like to prepare the list of top use cases.
-Please share your story with us at info@exyte.com and we will thank you with Macaw stickers!
+* 關貿股份有限公司-.NET  MVC  開發。
 
-<img src="https://i.imgur.com/m0pBChS.jpg" height="200">
+* Side  project:應客戶需求接案-開發iOS進銷存系統-製作中
 
-## Change Log
 
-You can find list of all changes by version in the [Change Log](https://github.com/exyte/Macaw/wiki/Change-Log)
 
-## Author
-
-This project is maintained by [exyte](http://www.exyte.com). We design and build mobile and VR/AR applications.
-
-## License
-
-Macaw is available under the MIT license. See the LICENSE file for more info.
 
