@@ -2,96 +2,120 @@
 我的履歷
 <h3>■單位基本資料 <span id="SysTitle"></span></h3>
 
-# iOSChatHead
-Light Weight iOS chat Head with Badge
+# Macaw
 
-[![Swift 4.0](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-ios-blue.svg?style=flat)](https://cocoapods.org/pods/iOSDropDown)
-[![Star](https://img.shields.io/amo/stars/dustman.svg?style=flat)]()
+[![CI Status](https://travis-ci.org/exyte/Macaw.svg?style=flat)](https://travis-ci.org/exyte/Macaw)
+[![Version](https://img.shields.io/cocoapods/v/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![License](https://img.shields.io/cocoapods/l/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
+[![Platform](https://img.shields.io/cocoapods/p/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
 
+<img src="https://github.com/exyte/Macaw/blob/master/logo.png" width="400">
 
+## What is Macaw?
 
-## Example
-[![](https://raw.githubusercontent.com/jriosdev/iOSChatHead/master/images/1.gif)](images/1.gif)
+Macaw is a powerful and easy-to-use vector graphics library written in Swift.
 
-[![](https://raw.githubusercontent.com/jriosdev/iOSChatHead/master/images/2.gif)](images/2.gif)
+#### It's simple
 
+Get started with Macaw in several lines of code:
 
-
-## Features
-1. Gestures
-        ` [single tap],[double tap],[longpress],[dragging],[drag done],[auto docking done]`
-2. Badge text for icon  
-        ` Fully customizable `
-3. Auto Docking
-4. All Attributes of ` UIButton`
-
-
-
-### Manual
-
-Just clone and add the following Swift files to your project:
-- iOSChatHead.swfit
-
-## Basic usage ✨
-
-
-
-### Code Method
 ```swift
-var chat1:iOSChatHead!
+class MyView: MacawView {
 
-override func viewDidLoad() {
-    super.viewDidLoad()
-
-    self.chat1 = iOSChatHead.init(frame: CGRect(x: 0, y: 150, width: 50, height: 50))
-    self.chat1.badgeEdgeInsets = UIEdgeInsets(top: 10, left: 15, bottom: 0, right: 15)
-    //chat1.setImage(#imageLiteral(resourceName: "cha1.png"), for: .normal)
-
-    UIApplication.shared.keyWindow?.bringSubviewToFront(self.chat3)
-    chat1.badgeString = "New"
+	required init?(coder aDecoder: NSCoder) {
+		let text = Text(text: "Hello, World!", place: .move(dx: 145, dy: 100))
+		super.init(node: text, coder: aDecoder)
+	}
 
 }
 ```
-### Other Options
-Actions && Closures
 
-```swift
-var tapBlock:(()->Void)? 
-var doubleTapBlock:(()->Void)?
-var longPressBlock:(()->Void)?
-var draggingBlock:(()->Void)?
-var dragDoneBlock:(()->Void)?
-var autoDockingBlock:(()->Void)?
-var autoDockingDoneBlock:(()->Void)?
+<img src="http://i.imgur.com/ffPc4mr.png" width="475">
 
-````
+#### It has SVG support
+
+Include Scalable Vector Graphics right into your iOS application:
+
+<img src="http://i.imgur.com/NWkEzcu.png" width="300">
+
+#### It's powerful
+
+Affine transformations, user events, animation and various effects to build beautiful apps with Macaw:
+
+<img src="http://i.imgur.com/pjmxrDI.gif" width="600">
+
+## Motivation
+
+Modern designs contain tons of illustrations and complex animations. Mobile developers have to spend a lot of time on converting designs into native views that will be resizable for different screens. With Macaw you can reduce development time to a minimum and describe all graphics in high level [scene](https://en.wikipedia.org/wiki/Scene_graph) elements. Or even render SVG graphics right from your design tool with Macaw events and animation support.
+
+## Resources
+
+### Docs
+We're working hard to provide full documentation. Currently you can take a look at the following docs:
+* [Getting started guide](https://github.com/exyte/Macaw/wiki/Getting-started)
+* [Render SVG file](https://github.com/exyte/Macaw/wiki/Render-SVG-file)
+* [Content animation](https://github.com/exyte/Macaw/wiki/Content-animation)
+* [Morphing animation](https://github.com/exyte/Macaw/wiki/Morphing-animation)
+
+### Posts
+* [Replicating Apple Design Awarded Applications](https://medium.com/exyte/replicating-apple-design-awarded-applications-70e5df4c4b94#.ckt1hfnei)
+* [How friendly can drawing API be on iOS?](https://medium.com/exyte/how-friendly-can-drawing-api-be-on-ios-b3a818bf8105#.o9i35zcai)
+* [Macaw iOS Library: Morphing Animations](https://medium.com/exyte/macaw-ios-library-morphing-animations-and-touch-events-a4cb1c0be97f)
+
+## Examples
+
+[Macaw-Examples](https://github.com/exyte/macaw-examples) is a repository where you can find various usages of the `Macaw` library from simple charts to the complex periodic table.
+
+<img src="http://i.imgur.com/rQIh3qD.gif" height="280"> <img src="http://i.imgur.com/bIgHtzt.gif" height="280"> <img src="http://i.imgur.com/NiBT2rv.gif" height="280"> <img src="http://i.imgur.com/Un8TJKc.gif" height="280">
+
+<img src="http://i.imgur.com/o6tBKW6.gif" height="280"><img src="http://i.imgur.com/1JXF60f.gif" height="280">
 
 
-## Customize iOSChatHead 🖌
-You can customize with all properties of UIButton:
-AND
-You can customize these properties of the Badge:
-- `badgeString ` : You can add badge for button.Default vaule is `""`
-- `cornerRadiusFactor` : Factor that can change corner radius of badge. Default value is `2`
-- `verticalMargin` : This is the space between text and badge's vertical edge 
-- `horizontalMargin` : This is the space between text and badge's horizontal edge
-- `badgeEdgeInsets`:  specify amount to inset (positive) for each of the edges. Type  is `UIEdgeInsets ` 
-- `badgeBackgroundColor`: The  badge Background Color. Default value is  ` .red`
-- `badgeTextColor`: This is Badge Text Color. Default value is `.white`
-- `edgeInsetLeft`: Can be adjust from Interface Builder EdgeInsetLeft
-- `edgeInsetRight`: Can be adjust from Interface Builder EdgeInsetRight
-- `edgeInsetTop` : Can be adjust from Interface Builder EdgeInsetTop
-- `edgeInsetBottom`:  Can be adjust from Interface Builder EdgeInsetBottom
-- `anchor`: It represent different anchor on button Values are:0 = TopLeft,1 = TopRight,2 = BottomLeft,3 = BottomRight,4 = Center
+## Requirements
 
+* iOS 8.0+
+* Mac OS X 10.11+
+* Xcode 7.3+
+
+## Installation
+
+## [CocoaPods](http://cocoapods.org)
+
+To install it, simply add the following line to your Podfile:
+```ruby
+pod "Macaw", "0.9.1"
+```
+
+## [Carthage](http://github.com/Carthage/Carthage)
+
+```ogdl
+github "Exyte/Macaw" ~> 0.9.1
+```
+
+## Building from sources
+
+To build Macaw from sources:
+* clone the repo `git@github.com:exyte/Macaw.git`
+* open terminal and run `cd <MacawRepo>/Example/`
+* run `pod install` to install all dependencies
+* run `open Example.xcworkspace/` to open project in the Xcode
+
+## Who is using Macaw?
+Over one thousand users already utilize Macaw in their applications. We would like to prepare the list of top use cases.
+Please share your story with us at info@exyte.com and we will thank you with Macaw stickers!
+
+<img src="https://i.imgur.com/m0pBChS.jpg" height="200">
+
+## Change Log
+
+You can find list of all changes by version in the [Change Log](https://github.com/exyte/Macaw/wiki/Change-Log)
 
 ## Author
-### ✨✨If you like my project please Give me a STAR on Github✨✨
-Jishnu Raj T, jriosdev@gmail.com
-[![Contact](https://img.shields.io/badge/Contact-%40jishnurajt-blue.svg?style=flat)](https://twitter.com/jishnurajt)
+
+This project is maintained by [exyte](http://www.exyte.com). We design and build mobile and VR/AR applications.
 
 ## License
 
-iOSChatHead is available under the MIT license. See the LICENSE file for more info.
+Macaw is available under the MIT license. See the LICENSE file for more info.
+
